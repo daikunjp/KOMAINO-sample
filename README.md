@@ -1,0 +1,2 @@
+# KOMAINO-sample
+KOMAINOのサンプルPGM
