@@ -1,0 +1,4 @@
+{
+    "board": "KOMAINO:esp8266:komaino",
+    "configuration": "CpuFrequency=80,UploadSpeed=115200,FlashSize=4M3M"
+}
