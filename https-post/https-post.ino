@@ -7,14 +7,14 @@ extern "C" {
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
 
+#include <komaino-config.h>
+
 ADC_MODE(ADC_VCC);
 
 WiFiClientSecure client;
 
 const char* host = "www.d-line.net";
 String url = "/api/test";
-char* ssid = "put your ssid";
-char* pass = "put your passphrase";
 
 void setup() {
   komaino.wifiSta(ssid, pass);

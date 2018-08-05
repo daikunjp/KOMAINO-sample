@@ -49,6 +49,7 @@
         {
             "name": "Win32",
             "includePath": [
+                "C:\\Users\\ikeda\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.4.1\\cores\\esp8266",
                 "${workspaceRoot}",
                 "C:\\Users\\ikeda\\AppData\\Local\\Arduino15\\packages\\KOMAINO\\hardware\\esp8266\\0.2.3\\cores\\esp8266"
             ],
@@ -60,13 +61,16 @@
             "intelliSenseMode": "msvc-x64",
             "browse": {
                 "path": [
+                    "C:\\Users\\ikeda\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.4.1\\cores\\esp8266",
                     "${workspaceRoot}",
                     "C:\\Users\\ikeda\\AppData\\Local\\Arduino15\\packages\\KOMAINO\\hardware\\esp8266\\0.2.3\\cores\\esp8266"
                 ],
                 "limitSymbolsToIncludedHeaders": false,
                 "databaseFilename": ""
-            }
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
         }
     ],
-    "version": 3
+    "version": 4
 }
